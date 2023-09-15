@@ -1,6 +1,6 @@
 def inputdata ():
     user_pass = int(input("รหัสพนักงาน : "))
-    user_name = int(input("ชื่อพนักงาน : "))
+    user_name = input("ชื่อพนักงาน : ")
     user_money = int(input("เงินเดือนพนักงาน : "))
     return user_money , user_name , user_pass
 def addtax_money (user_money):
